@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "miu_serve",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
