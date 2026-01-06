@@ -5,6 +5,6 @@ export const CurrentUser = createParamDecorator(
     (_:unknown, ctx: ExecutionContext) => {
         const req = ctx.switchToHttp().getRequest() as any;
 
-        return req.user as UserContext | undefined
+        return req.user as UserContext | undefined;
     }
 )
