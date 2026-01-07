@@ -1,0 +1,26 @@
+meta {
+  name: clerk api
+  type: http
+  seq: 2
+}
+
+post {
+  url: https://api.clerk.com/v1/sessions/
+  body: json
+  auth: inherit
+}
+
+headers {
+  Authorization: Bearer sk_test_8wqgDVDsKOwwFCDJqOXORm8tsa93vFGRipuEYPyhqo
+}
+
+body:json {
+  {
+   "user_id":"user_37t1iyKJ8Eq1HGbztlb2MA3pbe5"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

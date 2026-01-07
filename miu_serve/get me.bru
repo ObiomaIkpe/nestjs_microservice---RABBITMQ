@@ -1,0 +1,20 @@
+meta {
+  name: get me
+  type: http
+  seq: 5
+}
+
+get {
+  url: http://localhost:3000/auth/me
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDIyMkFBQSIsImtpZCI6Imluc18zN3NKWGx2M2FJWmM2OTRkZnFwSEJjYjU5U0YiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NzM3MDg4NzgsImlhdCI6MTc2NzcwODg3OCwiaXNzIjoiaHR0cHM6Ly9ldm9sdmluZy1mZWxpbmUtMzguY2xlcmsuYWNjb3VudHMuZGV2IiwianRpIjoiNWJlYTNjNjdmNjFhMjYzYTAzNDkiLCJuYmYiOjE3Njc3MDg4NzMsInN1YiI6InVzZXJfMzd0MWl5S0o4RXExSEdienRsYjJNQTNwYmU1In0.OBsp-pzU-IERfia1QuRFVszOlTXHsXCThh-iHG0yeu6Y6S8joTebf04OHPOzsft39dS4cvFD_fINyyO5GRGHImHHQgswLSYo76RsB5awDZvKAmOs9GGYs4FHV9Jz9eruVP_CbUNzKWz3kqozGafod53TiVaMX7dDCGty-NrAEZeDnomBKAS23XALkV8FLtL2wtpKHf4b4tIMLsJhjS5WW4iMSGjWNTjSp-wkT1wHdNF8pLqNgvOp439QtDOABD5Q8hMdXbDl7w4YazVZHP8OV6xHbatoZ3tuv1nqNuBpsuEY8kF2f9sCAtUKPhKiiP6jq33h4-FdD7wsysCa6KGnAQ
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

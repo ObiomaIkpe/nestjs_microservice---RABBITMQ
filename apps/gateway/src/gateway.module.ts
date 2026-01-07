@@ -12,7 +12,7 @@ import { AuthModule } from './auth/auth.module';
     ConfigModule.forRoot({
       isGlobal: true,
     }),
-    MongooseModule.forRoot(process.env.MONGO_URI_USERS as string),
+    MongooseModule.forRoot(process.env.MONGO_URL as string),
     UsersModule,
     AuthModule,
     ClientsModule.register([
